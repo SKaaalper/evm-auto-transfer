@@ -24,8 +24,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dante4rt/evm-auto-transfer.git
-   cd evm-auto-transfer
+   git clone https://github.com/SKaaalper/evm-auto-transfer.git && cd evm-auto-transfer
    ```
 
 2. Install the necessary packages:
@@ -40,49 +39,46 @@ Ensure you have the following installed:
 
    - You'll need to specify the network details in JSON files located in the `/chains` directory. Create two JSON files: `testnet.json` and `mainnet.json`.
    - Each file should contain an array of objects with the following structure:
+     ```
+     nano testnet.json
+     ```
+     - Format:
 
-     ```json
+     ```
      [
          {
-             "name": "Network Name",
-             "rpcUrl": "https://rpc-url",
-             "chainId": "1234",
-             "symbol": "TOKEN",
-             "explorer": "https://explorer-url"
+             "name": "tea-assam",
+             "rpcUrl": "https://assam-rpc.tea.xyz",
+             "chainId": "93384",
+             "symbol": "$TEA",
+             "explorer": "https://assam.tea.xyz"
          }
      ]
      ```
 
-   - Example for `testnet.json`:
-
-     ```json
-     [
-         {
-             "name": "Plume Testnet",
-             "rpcUrl": "https://plume-testnet-rpc.example.com",
-             "chainId": "8888",
-             "symbol": "PLUME",
-             "explorer": "https://plume-testnet-explorer.example.com"
-         }
-     ]
-     ```
 
 2. **Define Private Keys**:
 
    - Store your private keys securely inside a `privateKeys.json` file in the root directory. This file should contain an array of private keys as strings:
+     ```
+     nano privateKeys.json
+     ```
+     - Format:
 
      ```json
      [
-         "0xYOUR_PRIVATE_KEY_1",
-         "0xYOUR_PRIVATE_KEY_2"
+         "0xYOUR_PRIVATE_KEY_1"
      ]
      ```
 
      **⚠️ Important**: Keep this file secure and avoid exposing your private keys!
 
-3. **Create Target Addresses File**:
+3. **Create Target Addresses File** (Optional):
 
    - Create an `addresses.json` file in the root directory. This file should contain an array of target addresses you want to transfer funds to:
+     ```
+     nano addresses.json
+     ```
 
      ```json
      [
