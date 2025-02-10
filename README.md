@@ -87,6 +87,8 @@ Ensure you have the following installed:
      ```
      nano addresses.json
      ```
+     
+     - Format:
 
      ```json
      [
