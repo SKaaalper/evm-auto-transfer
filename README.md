@@ -39,9 +39,17 @@ Ensure you have the following installed:
 
    - You'll need to specify the network details in JSON files located in the `/chains` directory. Create two JSON files: `testnet.json` and `mainnet.json`.
    - Each file should contain an array of objects with the following structure:
+  
+     - For Testnet:
      ```
      nano testnet.json
      ```
+  
+     - For mainnet:
+     ```
+     nano mainnet.json
+     ```
+     
      - Format:
 
      ```
