@@ -55,11 +55,11 @@ Ensure you have the following installed:
      ```
      [
          {
-             "name": "tea-assam",
-             "rpcUrl": "https://assam-rpc.tea.xyz",
-             "chainId": "93384",
-             "symbol": "$TEA",
-             "explorer": "https://assam.tea.xyz"
+             "name": "Nexus",
+             "rpcUrl": "https://rpc.nexus.xyz/http",
+             "chainId": "392",
+             "symbol": "NEX",
+             "explorer": "https://explorer.nexus.xyz"
          }
      ]
      ```
@@ -117,14 +117,6 @@ Ensure you have the following installed:
 ### Contribution
 
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
-
-## Donations
-
-If you would like to support the development of this project, you can make a donation using the following addresses:
-
-- **Solana**: `GLQMG8j23ookY8Af1uLUg4CQzuQYhXcx56rkpZkyiJvP`
-- **EVM**: `0x960EDa0D16f4D70df60629117ad6e5F1E13B8F44`
-- **BTC**: `bc1p9za9ctgwwvc7amdng8gvrjpwhnhnwaxzj3nfv07szqwrsrudfh6qvvxrj8`
 
 ### License
 
