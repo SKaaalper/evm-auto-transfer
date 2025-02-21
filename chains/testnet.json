@@ -140,10 +140,10 @@
     "explorer": "https://testnet.storyscan.xyz"
   },
   {
-    "name": "WeaveVM Testnet",
-    "rpcUrl": "https://testnet.wvm.dev",
-    "chainId": "9496",
-    "symbol": "tWVM",
-    "explorer": "https://explorer.wvm.dev"
+    "name": "Nexus",
+    "rpcUrl": "https://rpc.nexus.xyz/http",
+    "chainId": "392",
+    "symbol": "NEX",
+    "explorer": "https://explorer.nexus.xyz"
   }
 ]
