@@ -14,11 +14,11 @@
     "explorer": "https://reddio-devnet.l2scan.co"
   },
   {
-    "name": "Tea Assam Testnet",
-    "rpcUrl": "https://assam-rpc.tea.xyz",
-    "chainId": "93384",
+    "name": "Tea Sepolia",
+    "rpcUrl": "https://tea-sepolia.g.alchemy.com/public",
+    "chainId": "10218",
     "symbol": "TEA",
-    "explorer": "https://explorer-tea-assam-fo46m5b966.t.conduit.xyz:443"
+    "explorer": "https://sepolia.tea.xyz"
   },
   {
     "name": "Cypher Testnet",
