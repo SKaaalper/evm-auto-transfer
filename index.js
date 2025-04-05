@@ -216,7 +216,7 @@ const main = async () => {
   }
 
   console.log(colors.green('All transactions completed.'));
-  console.log(colors.green('Subscribe: https://t.me/HappyCuanAirdrop.'));
+  console.log(colors.green('Subscribe: KWenneth Gwapo Pogi.'));
   process.exit(0);
 };
 
